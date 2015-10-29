@@ -4,6 +4,14 @@ $(document).ready(function(){
 
 	//applyPreloader();
 	//randomFeature();
+
+$('.nav .dropdown').hover(function() {
+        $(this).addClass('open');
+    }, function() {
+        $(this).removeClass('open');
+    });
+
+  
 	applyHeader();
 	applyNavigation(); 
 	applyMailTo();
