@@ -507,6 +507,65 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
   #menu1 {
   display: none;
   }
+
+
+  .dropdownContain {
+  width: 200px;
+  position: absolute;
+  z-index: 2;
+  top: -400px;
+}
+.dropOut {
+  width: 200px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-top: 0px;
+  opacity: 0;
+  -webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+  box-shadow: 0 1px 6px rgba(0,0,0,.15);
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+
+.dropOut ul {
+  float: left;
+  padding: 0 0;
+}
+.dropOut ul li {
+  text-align: left;
+  background: transparent url(http://s15.postimg.org/p6rvo45l3/dropborder.png) center top repeat-x;
+  float: left;
+  width: 155px;
+  padding: 12px 0 10px 15px;
+  margin: 0px 15px;
+  color: #777;
+}
+.dropOut li:first-child
+{
+background:none;
+}
+
+.dropOut ul li:hover {
+  color:#09F;
+  -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+
+ul li:hover a { color:#09F;
+  -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+ }
+ul li:hover .dropdownContain { top: 45px; }
   
   .container { padding: 60px 13px; min-width: 280px; }
   
