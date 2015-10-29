@@ -14,7 +14,7 @@ $('.nav .dropdown').hover(function() {
 
 	applyHeader();
 	applyNavigation(); 
-	applyMailTo();
+	//applyMailTo();
 	applyResize();
 	checkHash();
 });
