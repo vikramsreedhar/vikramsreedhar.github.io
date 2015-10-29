@@ -6,9 +6,9 @@ $(document).ready(function(){
 	//randomFeature();
 
 $('.nav .dropdown').hover(function() {
-        $(this).addClass('open');
+        $('#menu1').css('display', 'block');
     }, function() {
-        $(this).removeClass('open');
+        $('#menu1').css('display', 'none');
     });
 
 
