@@ -5,6 +5,30 @@ $(document).ready(function(){
 	//applyPreloader();
 	//randomFeature();
 
+$('.nav .dropdown').hover(function() {
+        $('#menu1').css('display', 'block');
+    }, function() {
+        $('#menu1').css('display', 'none');
+    });
+
+$('.nav .dropdown1').hover(function() {
+        $('#menu2').css('display', 'block');
+    }, function() {
+        $('#menu2').css('display', 'none');
+    });
+
+$('.nav .dropdown2').hover(function() {
+        $('#menu3').css('display', 'block');
+    }, function() {
+        $('#menu3').css('display', 'none');
+    });
+
+$('.nav .dropdown3').hover(function() {
+        $('#menu4').css('display', 'block');
+    }, function() {
+        $('#menu4').css('display', 'none');
+    });
+
 
 	applyHeader();
 	applyNavigation(); 

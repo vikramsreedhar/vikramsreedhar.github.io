@@ -496,48 +496,40 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
   .jumbotron .container { top: 28%; padding-top: 0px; }
   .jumbotron .scroll-down { width: 100%; right: 0px; }
 
-.sidebar-nav {
-    padding: 9px 0;
-}
+    #menu1 {
+  display: none;
+  margin: 0;
+  }
 
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
+   #menu2 {
+  display: none;
+  margin: 0;
+  }
 
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
+   #menu3 {
+  display: none;
+  margin: 0;
+  }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
+   #menu4 {
+  display: none;
+  margin: 0;
+  }
 
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
-
-.navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
-}
-.navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
-}
-
+  #engage {
+    display:block;
+    height:20px;
+    padding: 0;
+    color:black;
+  }
+  
+  .navbar  { top: 0px; width: 100%; height: 110px;}
+  .navbar .nav > li { height: 60px; }
+  .navbar .nav > li a { height: 20px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;}
+  
+  .fixed .navbar { top: 0px; }
 
 
   .dropdownContain {
