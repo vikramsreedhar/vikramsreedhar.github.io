@@ -5,11 +5,29 @@ $(document).ready(function(){
 	//applyPreloader();
 	//randomFeature();
 
-$('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-});
+$('.nav .dropdown').hover(function() {
+        $('#menu1').css('display', 'block');
+    }, function() {
+        $('#menu1').css('display', 'none');
+    });
+
+$('.nav .dropdown1').hover(function() {
+        $('#menu2').css('display', 'block');
+    }, function() {
+        $('#menu2').css('display', 'none');
+    });
+
+$('.nav .dropdown2').hover(function() {
+        $('#menu3').css('display', 'block');
+    }, function() {
+        $('#menu3').css('display', 'none');
+    });
+
+$('.nav .dropdown3').hover(function() {
+        $('#menu4').css('display', 'block');
+    }, function() {
+        $('#menu4').css('display', 'none');
+    });
 
 
 	applyHeader();
