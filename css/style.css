@@ -495,16 +495,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
   }
   .jumbotron .container { top: 28%; padding-top: 0px; }
   .jumbotron .scroll-down { width: 100%; right: 0px; }
-  
-  .navbar  { top: 0px; width: 100%; height: 110px;}
-  .navbar .nav > li { height: 60px; }
-  .navbar .nav > li a { height: 20px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; -webkit-transition: all .2s ease-in-out;
-      -moz-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;}
-  
-  .fixed .navbar { top: 0px; }
 
-  #menu1 {
+    #menu1 {
   display: none;
   margin: 0;
   }
@@ -515,6 +507,14 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     padding: 0;
     color:black;
   }
+  
+  .navbar  { top: 0px; width: 100%; height: 110px;}
+  .navbar .nav > li { height: 60px; }
+  .navbar .nav > li a { height: 20px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;}
+  
+  .fixed .navbar { top: 0px; }
 
 
   .dropdownContain {
