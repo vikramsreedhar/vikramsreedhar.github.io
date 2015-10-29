@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="/css/style.css" type="text/css" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans|Merriweather">
-<!-- 		<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" type="text/css" /> -->
+		<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" type="text/css" />
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<link rel="shortcut icon" href="/images/globe.png">
@@ -63,27 +63,92 @@
   		</div>
 
   		<!-- Navigation Bar -->
-<nav class="nav">
-  <ul class="nav__menu">
-    <li class="nav__menu-item"><a>Home</a></li>
-    <li class="nav__menu-item"><a>Services</a>
-      <ul class="nav__submenu">
-        <li class="nav__submenu-item"> <a>Web Design</a></li>
-        <li class="nav__submenu-item"> <a>Web Development</a></li>
-        <li class="nav__submenu-item"> <a>Web Hosting</a></li>
-      </ul>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+      <div class="container-fluid">
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a href="#" class="brand">Project name</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                    <a href="#">2-level Dropdown <i class="icon-arrow-right"></i></a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="nav-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form action="" class="navbar-search pull-left">
+            <input type="text" placeholder="Search" class="search-query span2">
+          </form>
+          <ul class="nav pull-right">
+            <li><a href="#">Link</a></li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a class="#" href="#">Menu</a>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+  </div>
+</div>
+
+<hr>
+
+<ul class="nav nav-pills">
+<li class="active"><a href="#">Regular link</a></li>
+<li class="dropdown">
+  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+  <ul class="dropdown-menu" id="menu1">
+    <li>
+        <a href="#">2-level Menu <i class="icon-arrow-right"></i></a>
+        <ul class="dropdown-menu sub-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li class="nav-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+        </ul>
     </li>
-    <li class="nav__menu-item"><a>About</a>
-      <ul class="nav__submenu">
-        <li class="nav__submenu-item"> <a>Our Company</a></li>
-        <li class="nav__submenu-item"> <a>Our Team</a></li>
-        <li class="nav__submenu-item"> <a>Our Reach</a></li>
-      </ul>
-    </li>
-    <li class="nav__menu-item"><a>Blog</a></li>
-    <li class="nav__menu-item"><a>Contact</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
   </ul>
-</nav>
+</li>
+<li class="dropdown">
+  <a href="#">Menu</a>
+</li>
+<li class="dropdown">
+  <a href="#">Menu</a>
+</li>
+</ul>
 
 
 
