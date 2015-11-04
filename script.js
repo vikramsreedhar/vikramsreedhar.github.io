@@ -29,6 +29,12 @@ $('.nav .dropdown3').hover(function() {
         $('#menu4').css('display', 'none');
     });
 
+$('.over').hover(function() {
+        $(this).css('background', '#777777');
+    }, function() {
+        $(this).css('background', '#E0E0E0');
+    });
+
 
 	applyHeader();
 	applyNavigation(); 
