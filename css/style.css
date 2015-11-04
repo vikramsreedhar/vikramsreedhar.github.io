@@ -409,6 +409,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     height:20px;
     padding: 0;
     color:black;
+    text-decoration: none;
   }
 
       #menu1 {
@@ -468,7 +469,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
   float: left;
   width: 155px;
   padding: 12px 0 10px 15px;
-  margin: 0px -10px;
+  margin: 5px -10px;
   color: #777;
 }
 .dropOut li:first-child
