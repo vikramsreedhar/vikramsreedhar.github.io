@@ -225,7 +225,56 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .campus {position: relative; height: 40%; width: 100%;}
 
 
+article {
+       -moz-column-count: 3;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 3;
+       -webkit-column-gap : 20px;
+       -moz-column-rule-color:  #ccc;
+       -moz-column-rule-style:  solid;
+       -moz-column-rule-width:  1px;
+       -webkit-column-rule-color:  #ccc;
+       -webkit-column-rule-style: solid ;
+       -webkit-column-rule-width:  1px;
+       column-count: 3;
+       column-gap: 20px;
+       column-rule-color:  #ccc;
+       column-rule-style: solid ;
+       column-rule-width:  1px;
+}
 
+figure {   
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+.byline { float: top; float-defer-column: 1; text-transform:uppercase;font-style:italic;font-weight:900;font-size:70%; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote h3 {margin-top:0;}
+blockquote p {
+  display: inline;
+}
 
 
 
