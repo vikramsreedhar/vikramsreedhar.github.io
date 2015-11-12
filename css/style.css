@@ -185,11 +185,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 
 .wrap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -86px;
-  margin-left: -89px;
+  position: relative;
+
   text-align: center;
 }
 
